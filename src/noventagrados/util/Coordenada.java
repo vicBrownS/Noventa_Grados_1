@@ -14,7 +14,7 @@ public record Coordenada(int fila, int columna) {
      * @return Cadena con el formato "fila,columna".
      */
     public String aTexto() {
-        return fila + "," + columna;
+        return fila + "" + columna;
     }
 }
 
