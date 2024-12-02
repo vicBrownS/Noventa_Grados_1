@@ -18,7 +18,7 @@ public class Celda {
      *
      * @param coordenada Coordenada asociada a la celda.
      */
-    Celda(Coordenada coordenada) {
+    public Celda(Coordenada coordenada) {
         this.coordenada = coordenada;
     }
 

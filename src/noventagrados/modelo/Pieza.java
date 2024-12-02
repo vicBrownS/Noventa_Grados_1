@@ -21,7 +21,7 @@ public class Pieza {
      * @param tipoPieza Tipo de la pieza.
      * @param color     Color de la pieza.
      */
-    Pieza(TipoPieza tipoPieza, Color color) {
+    public Pieza(TipoPieza tipoPieza, Color color) {
         this.tipoPieza = tipoPieza;
         this.color = color;
     }

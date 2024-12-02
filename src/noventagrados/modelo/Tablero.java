@@ -21,7 +21,7 @@ public class Tablero {
     /**
      * Constructor por defecto. Inicializa un tablero vacío de dimensiones 7x7.
      */
-    Tablero() {
+    public Tablero() {
         tablero = new Celda[7][7];
     }
 
